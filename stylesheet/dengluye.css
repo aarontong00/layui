@@ -1,0 +1,649 @@
+
+/* raleway-regular */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: regular;
+  src: url('//lib.baomitu.com/fonts/raleway/raleway-regular.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Normal'),
+  url('//lib.baomitu.com/fonts/raleway/raleway-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//lib.baomitu.com/fonts/raleway/raleway-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-regular.woff') format('woff'), /* Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('//lib.baomitu.com/fonts/raleway/raleway-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-600 */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('//lib.baomitu.com/fonts/raleway/raleway-600.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Normal'),
+  url('//lib.baomitu.com/fonts/raleway/raleway-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//lib.baomitu.com/fonts/raleway/raleway-600.woff2') format('woff2'), /* Super Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-600.woff') format('woff'), /* Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('//lib.baomitu.com/fonts/raleway/raleway-600.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-700 */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//lib.baomitu.com/fonts/raleway/raleway-700.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Normal'),
+  url('//lib.baomitu.com/fonts/raleway/raleway-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//lib.baomitu.com/fonts/raleway/raleway-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-700.woff') format('woff'), /* Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('//lib.baomitu.com/fonts/raleway/raleway-700.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-900 */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url('//lib.baomitu.com/fonts/raleway/raleway-900.eot'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway-Normal'),
+  url('//lib.baomitu.com/fonts/raleway/raleway-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//lib.baomitu.com/fonts/raleway/raleway-900.woff2') format('woff2'), /* Super Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-900.woff') format('woff'), /* Modern Browsers */
+  url('//lib.baomitu.com/fonts/raleway/raleway-900.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('//lib.baomitu.com/fonts/raleway/raleway-900.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of CSS Reset */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+html, body {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #feffdb;
+  background-color: #020202;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+p {
+  margin: 0 0 15px;
+}
+img {
+  border: none;
+}
+input {
+  outline: none;
+  vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #ffa800;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 16px;
+  color: #fff;
+}
+h5 {
+  font-size: 14px;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {color:rgba(255,255,255,0.5);}
+::-moz-placeholder          {color:rgba(255,255,255,0.5);}/* Firefox 19+ */
+:-moz-placeholder           {color:rgba(255,255,255,0.5);}/* Firefox 18- */
+:-ms-input-placeholder      {color:rgba(255,255,255,0.5);}
+
+/* ==========================================================================
+   GENERAL & BASIC STYLES
+   ========================================================================== */
+
+.container {
+  width: 1270px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+}
+.row:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:after {
+  clear: both;
+  display: table;
+  content: '';
+}
+
+.lcol {
+  width: 50%;
+  float: left;
+}
+.rcol {
+  width: 50%;
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.numbers {
+  font-family: 'gillsans', sans-serif;
+}
+
+#header {
+  height: 514px;
+  background: url(../../../../../image/catalog/bg-header.jpg) 50% 0 no-repeat;
+}
+
+
+#content-wrapper {
+  background: url(../../../../../image/catalog/bg-content.jpg) 50% 0 no-repeat;
+  overflow: hidden;
+  width: 100%;
+  margin: -1px auto 0;
+ 
+  z-index: 1;
+}
+#content-wrapper:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../../../../../image/catalog/bg-footer-before.jpg) 50% bottom no-repeat;
+  height: 183px;
+  z-index: -1;
+}
+#content-wrapper:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+ 
+
+ 
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  overflow: hidden;
+}
+
+/*------------------------------------------*/
+/*   Link Setting
+/*------------------------------------------*/
+
+a {
+  outline: none;
+  text-decoration: underline;
+  -webkit-transition: all 250ms ease-in-out;
+     -moz-transition: all 250ms ease-in-out;
+      -ms-transition: all 250ms ease-in-out;
+       -o-transition: all 250ms ease-in-out;
+          transition: all 250ms ease-in-out;
+  color: #fedfa4;
+}
+
+a:hover {
+  color: #e2b764;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #e2b764;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+a.btn, button.btn, input[type=submit] {
+  background: url(../../../../../image/catalog/btn.png) 50% 50% no-repeat;
+  background-size: 100% 100%;
+  width: 181px;
+  height: 46px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 10px 0;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  cursor: pointer;
+  -webkit-transition: all 500ms linear;
+     -moz-transition: all 500ms linear;
+      -ms-transition: all 500ms linear;
+       -o-transition: all 500ms linear;
+          transition: all 500ms linear;
+}
+
+a.btn:focus, button.btn:focus {
+  outline: none;
+}
+a.btn:hover, button.btn:hover, input[type=submit]:hover {
+  -webkit-filter: sepia(0.5);
+     -moz-filter: sepia(0.5);
+          filter: sepia(0.5);
+}
+
+a.btn.btn-yellow, button.btn.btn-yellow, input[type=submit].btn-yellow {
+  background: url(../../../../../image/catalog/btn-yellow.png) 50% 50% no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  max-width: 301px;
+  height: 76px;
+  font-size: 30px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+a.btn.btn-green, button.btn.btn-green, input[type=submit].btn-green {
+  background: url(../../../../../image/catalog/btn-green.png) 50% 50% no-repeat;
+  background-size: 100% 100%;
+  width: 301px;
+  height: 76px;
+  font-size: 30px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+a.btn.btn-more, button.btn.btn-more, input[type=submit].btn-more {
+  background: url(../../../../../image/catalog/btn-more.png) 50% 50% no-repeat;
+  background-size: 100% 100%;
+  color: #989975;
+  font-size: 18px;
+  line-height: 38px;
+  max-width: 395px;
+  width: 100%;
+  height: 58px;
+  text-decoration: underline;
+  border-radius: 5px;
+  text-transform: none;
+}
+a.btn.btn-more:hover, button.btn.btn-more:hover, input[type=submit].btn-more:hover {
+  text-decoration: none;
+}
+
+/*------------------------------------------*/
+/*   Lists
+/*------------------------------------------*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ==========================================================================
+   HEADER & NAVIGATION
+   ========================================================================== */ 
+
+.socials {
+  text-align: center;
+  height: 80px;
+  top: -359px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.socials a {
+  margin: 0 7px;
+  display: inline-block;
+}
+.socials a img {
+  vertical-align: top;
+  -webkit-transition: all 300ms ease-in-out;
+     -moz-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+       -o-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out;
+}
+.socials a:hover img {
+  transform: rotateY(360deg);
+}
+
+/*------------------------------------------*/
+/*   Logo Image and Servers
+/*------------------------------------------*/
+
+.brand {
+  text-align: center;
+  padding-top: 170px;
+  margin: 0 auto;
+  height: 404px;
+}
+.brand a {
+  display: inline-block;
+}
+
+a.logo, a.logo img {
+  -webkit-transition: all 500ms linear;
+     -moz-transition: all 500ms linear;
+      -ms-transition: all 500ms linear;
+       -o-transition: all 500ms linear;
+          transition: all 500ms linear;
+}
+a.logo img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+/*------------------------------------------*/
+/*   Navigation Menu    
+/*------------------------------------------*/
+
+.navbar {
+  padding-top: 15px;
+  position: relative;
+  padding-left: 280px;
+}
+
+.navbar-toggle {
+  padding-top: 26px;
+  height: 70px;
+  display: none;
+  position: relative;
+  z-index: 100;
+}
+.burger {
+  display: block;
+  background: url(../../../../../image/catalog/ico-burger.png) 50% 50% no-repeat;
+  width: 67px;
+  height: 44px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.burger.collapsed {
+  display: block;
+  background: url(../../../../../image/catalog/ico-close.png) 50% 50% no-repeat;
+  width: 53px;
+  height: 53px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.caret {
+  width: 24px;
+  height: 17px;
+  background: url(../../../../../image/catalog/down.png) 0 0 no-repeat;
+  cursor: pointer;
+  display: inline-block;
+}
+.ico-horn {
+  background: url(../../../../../image/catalog/ico-horn.png) 50% 50% no-repeat;
+  display: inline-block;
+  width: 34px;
+  height: 29px;
+}
+
+.languages {
+  float: left;
+  width: 75px;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+.languages .caret {
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+.languages a {
+  display: inline-block;
+  width: 44px;
+  height: 48px;
+  position: relative;
+  border-radius: 100%;
+  position: relative;
+  z-index: 5;
+  -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+      -ms-transition: all 500ms ease-in-out;
+       -o-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}
+.languages a.active, .languages a:hover {
+  opacity: 1;
+}
+.languages a.ru {
+  background: url(../../../../../image/catalog/lang-ru.png) 50% 50% no-repeat;
+}
+.languages a.en {
+  background: url(../../../../../image/catalog/lang-en.png) 50% 50% no-repeat;
+}
+.languages a:not(.active) {
+  display: none;
+}
+.languages:hover a:not(.active) {
+  display: inline-block;
+}
+
+
+.navbar-nav {}
+.navbar-nav > li {
+  float: left;
+  background: url(../../../../../image/catalog/nav-r.png) right 0 no-repeat;
+  padding: 20px 16px 20px 14px;
+  position: relative;
+}
+.navbar-nav > li.last {
+  background: none;
+}
+.navbar-nav > li a {
+  display: inline-block;
+  font-size: 27px;
+  line-height: 36px;
+  color: #dbc1a7;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px rgba(0,0,0,1);
+  font-family: 'FrizQuadrataC', sans-serif;
+  -webkit-transition: all 250ms ease-in-out;
+     -moz-transition: all 250ms ease-in-out;
+      -ms-transition: all 250ms ease-in-out;
+       -o-transition: all 250ms ease-in-out;
+          transition: all 250ms ease-in-out;
+}
+.navbar-nav > li a:hover {
+  color: #bfe3ff;
+  text-decoration: none;
+}
+.navbar-nav > li a.active {
+  color: #bfe3ff;
+  text-decoration: none;
+}
+
+.navbar-nav > li.submenu ul.nav {
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(0,0,0,0.45);
+  width: 100%;
+  padding: 5px;
+  -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+      -ms-transition: all 500ms ease-in-out;
+       -o-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}
+.navbar-nav > li.submenu ul.nav li {
+  padding: 5px;
+}
+.navbar-nav > li.submenu ul.nav li a {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/*------------------------------------------*/
+/*    Status
+/*------------------------------------------*/
+.status-info {
+  text-align: center;
+  padding-top: 25px;
+  height: 290px;
+}
+.status-info .status {
+  display: inline-block;
+  text-shadow: 0px 0px 5px rgba(0,0,0,1);
+}
+.status .online {
+  margin-bottom: 0;
+  color: #ffba00;
+  font-size: 60px;
+  font-family: 'FrizQuadrataC', sans-serif;
+  line-height: 50px;
+}
+.status a {
+  font-size: 22px;
+  display: inline-block;
+  color: #feffdb;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  position: relative;
+}
+.status a:hover {
+  text-decoration: none;
+}
+.status a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background-color: #feffdb;
+  opacity: 1;
+  -webkit-transition: all 500ms ease-in-out;
+     -moz-transition: all 500ms ease-in-out;
+      -ms-transition: all 500ms ease-in-out;
+       -o-transition: all 500ms ease-in-out;
+          transition: all 500ms ease-in-out;
+}
+.status a:hover:after {
+  bottom: -10px;
+  opacity: 0;
+  visibility: 0;
+}
+.user-panel.not-logged{text-align: center;
+
+color: #feffdb;
+
+font-size: 24px;
+
+font-weight: 600;
+
+padding-top: 20px;
+
+height: 140px;
+
+}
+.timeline img{
+  width: 100%;
+}
+
+.realmlist-btn a {
+  opacity: 0.9;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.realmlist-btn .realmlist-btn-icon {
+  font-size: 20px;
+  margin: 0 2px;
+}
+
+.realmlist-btn .realmlist-btn-text {
+  position: relative;
+  top: -2px;
+}
+
+
+.submenu.last ul.nav{display:none;}
+.submenu.last:hover ul.nav{display:block;}
